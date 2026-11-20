@@ -1,0 +1,8 @@
+{
+  "name": "cuisine",
+  "version": "1.0.0",
+  "description": "Skill stock-cuisine : menus, listes de courses et suivi du stock d'ingrédients (données dans UnikSF/claude-memory).",
+  "author": { "name": "UnikSF" },
+  "repository": "https://github.com/UnikSF/claude-skill",
+  "keywords": ["cuisine", "batch-cooking", "courses", "stock"]
+}
