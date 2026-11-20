@@ -1,0 +1,10 @@
+{
+  "name": "pc-insomnia",
+  "version": "0.1.0",
+  "description": "Garde le PC éveillé pendant que Claude travaille, capot fermé compris en option (Windows, WSL, macOS, Linux).",
+  "author": {
+    "name": "UnikSF"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/UnikSF/claude-skill"
+}

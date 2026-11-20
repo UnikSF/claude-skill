@@ -9,6 +9,7 @@ Dans Claude Code :
 ```
 /plugin marketplace add UnikSF/claude-skill
 /plugin install dev-team@uniksf-skills
+/plugin install pc-insomnia@uniksf-skills
 ```
 
 ## Plugins
@@ -27,6 +28,10 @@ Utilisation : `/dev <fonctionnalité ou correction>` (ou `/dev-team:dev` si un a
 
 Déroulé : cadrage → plan technique → implémentation → revue + recette (2 itérations de correction max) → commit et compte rendu.
 
+### `pc-insomnia`
+
+Un mod qui garde le PC éveillé pendant que Claude travaille, et en option même capot fermé (Windows, WSL ; macOS et Linux sans le capot sous macOS). Commande `/insomnia` : `2h`, `off`, `lid on|off`, `screen on|off`, `grace <min>`. Détails dans [plugins/pc-insomnia/README.md](plugins/pc-insomnia/README.md).
+
 ## Structure
 
 ```
@@ -37,4 +42,10 @@ plugins/
     skills/dev/SKILL.md
     agents/po-fonctionnel.md
     agents/developpeur.md
+  pc-insomnia/
+    .claude-plugin/plugin.json
+    hooks/hooks.json
+    hooks/register.ts
+    hooks/windows.ts
+    hooks/register.test.ts
 ```
