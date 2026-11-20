@@ -1,13 +1,23 @@
 {
   "name": "uniksf-skills",
-  "owner": { "name": "UnikSF" },
-  "metadata": { "description": "Skills et plugins Claude Code d'UnikSF." },
+  "owner": {
+    "name": "UnikSF"
+  },
+  "metadata": {
+    "description": "Skills et plugins Claude Code d'UnikSF."
+  },
   "plugins": [
     {
       "name": "dev-team",
       "source": "./plugins/dev-team",
       "description": "Skill /dev : Fable advisor, Opus PO fonctionnel, Sonnet développeur.",
       "version": "1.0.0"
+    },
+    {
+      "name": "pc-insomnia",
+      "source": "./plugins/pc-insomnia",
+      "description": "Garde le PC éveillé pendant que Claude travaille, capot fermé compris en option (Windows, WSL, macOS, Linux).",
+      "version": "0.1.0"
     }
   ]
 }
