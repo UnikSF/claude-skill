@@ -1,0 +1,8 @@
+{
+  "name": "dev-team",
+  "version": "1.0.0",
+  "description": "Skill /dev : une équipe de dev avec Fable en advisor, Opus en PO fonctionnel et Sonnet en développeur.",
+  "author": { "name": "UnikSF" },
+  "repository": "https://github.com/UnikSF/claude-skill",
+  "keywords": ["dev", "agents", "product-owner", "workflow"]
+}
