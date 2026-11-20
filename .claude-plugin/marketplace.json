@@ -1,11 +1,7 @@
 {
   "name": "uniksf-skills",
-  "owner": {
-    "name": "UnikSF"
-  },
-  "metadata": {
-    "description": "Skills et plugins Claude Code d'UnikSF."
-  },
+  "owner": { "name": "UnikSF" },
+  "metadata": { "description": "Skills et plugins Claude Code d'UnikSF." },
   "plugins": [
     {
       "name": "dev-team",
